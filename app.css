@@ -1,0 +1,39 @@
+h1 {
+    color: #8AA836;
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: solid; */
+    border: 2px solid rgb(85, 40, 34)
+}
+/* border width, color, style */
+
+
+h4 {
+    color: #42317A;
+}
+
+li {
+    color: #862B6B;
+}
+
+/* h1 {
+    color: rgb(0,0,0);
+}
+
+RGBA a = alpha (transparency from 0.0 - 1.0 -- closer to 0.0 more transparent)
+h4 {
+    color: rgba(11,99,150,.6);
+} */
+
+h4 {
+    background: rgb(255,100,80);
+}
+
+body {
+    background: url(https://cdn.bulbagarden.net/upload/b/b1/393Piplup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+

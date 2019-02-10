@@ -1,0 +1,42 @@
+/* Elements */
+li {
+
+}
+/* class */
+.hello {
+
+}
+/* id */
+#name {
+
+}
+
+/* Star with an * and selects everything on the page*/
+
+* {
+    border: 1px solid lightgrey;
+}
+
+/* Descendant Selector takes two or more tags/selectors and chained together */
+
+li a {
+    color: red;
+}
+
+/* Adjacent Selector select elements that come after another element */
+
+h4 + ul {
+    border: 4px solid blue;
+}
+
+/* Attribute Selector select elements based off any attribute */
+
+a[href="http://www.google.com"] {
+    background: green;
+}
+
+/* nth of type takes a number and selects every nth of an element*/
+
+li:nth-of-type(3){
+    background: purple;
+}
